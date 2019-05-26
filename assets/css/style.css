@@ -1,0 +1,339 @@
+@font-face {
+    font-family: 'butlerblack';
+    src: url('./assets/css/fonts/butler_black-webfont.woff2') format('woff2'),
+         url('./assets/css/fonts/butler_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'hijrnotes';
+    src: url('./assets/css/fonts/hijrnotes_personal_use_only-webfont.woff2') format('woff2'),
+         url('./assets/css/fonts/hijrnotes_personal_use_only-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'smoothstone';
+    src: url('./assets/css/fonts/SmoothStone-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butlerbold';
+    src: url('./assets/css/fonts/butler_bold-webfont.woff2') format('woff2'),
+         url('./assets/css/fonts/butler_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butlerextrabold';
+    src: url('./assets/css/fonts/butler_extrabold-webfont.woff2') format('woff2'),
+         url('./assets/css/fonts/butler_extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butlerlight';
+    src: url('./assets/css/fonts/butler_light-webfont.woff2') format('woff2'),
+         url('./assets/css/fonts/butler_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butlermedium';
+    src: url('./assets/css/fonts/butler_medium-webfont.woff2') format('woff2'),
+         url('./assets/css/fonts/butler_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butlerregular';
+    src: url('./assets/css/fonts/butler_regular-webfont.woff2') format('woff2'),
+         url('./assets/css/fonts/butler_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'butlerultralight';
+    src: url('./assets/css/fonts/butler_ultra_light-webfont.woff2') format('woff2'),
+         url('./assets/css/fonts/butler_ultra_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+/****LIST****/
+
+/**********************HEADER****************/
+/*Nav*/
+
+/**************MAIN*************************/
+/*sec-about*/
+/*sec-gallery*/
+/*sec-services*/
+
+/****************FOOTER*******************/
+
+/**********MEDIA-QUERY*******************/
+
+
+body{
+	font-family: 'Cabin', sans-serif;
+	background-color: #fdfdfd;
+}
+header, section{
+	min-height: 100vh;
+}
+
+/**********************HEADER****************/
+/*Nav*/
+nav{
+	background-color: transparent;
+	box-shadow: none;
+}
+nav ul a {
+	font-family: 'cabin', sans-serif;
+	font-size:10px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+nav ul{
+	background-color: white;
+}
+.home a{
+	color: #020202;
+}
+.home header{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-color: #020202;
+	background-blend-mode: screen;
+}
+.not-visible{
+	visibility: hidden;
+	
+}
+.cta{
+	position: absolute;
+	top: 85%;
+	left: 18%;
+}
+.cta .btn{
+	width: 250px!important;
+	letter-spacing: 2px;
+	background-color: #FF5F59;
+}
+
+/**************MAIN*************************/
+/*sec-about*/
+.desc{
+	background-image: url(../images/back.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-color: #020202;
+	background-blend-mode: screen;
+}
+.about .b img{
+	width: 600px;
+	height: auto;
+	z-index: -1;
+}
+.a p{
+	font-size: 30px;
+}
+.pol{
+	transform: translate(30%,0%);
+	background-color: #fdfdfd;
+	transition: height 1s ease-in;
+	height: 80vh;
+	overflow: hidden;
+	padding: 10%;
+	z-index: 1000!important;
+	position: relative;
+}
+.image1{
+	z-index: -100;
+	position: relative;
+}
+.trans{
+	height: 80vh;
+}
+
+.pol2{
+	transform: translate(-5%,0%);
+	background-color: #fdfdfd;
+	transition: height 1s ease-in;
+	height: 40vh;
+	overflow: hidden;
+	padding: 10%;
+}
+.trans2{
+	height: 40vh;
+}
+.section-title{
+	font-size: 20px;
+	font-family: 'hijrnotes'!important;
+	color: gray;
+	font-weight: 100;
+	
+	
+	
+}
+.secton-title {
+	
+}
+.section-desc{
+	font-size: 30px;
+	font-family: "butlerregular", serif;
+	
+}
+/*sec-reserver*/
+.reservation .cards{
+	padding: 20px;
+	height: 100vh;
+}
+.reservation h1{
+	font-family: "butlerregular", serif;
+	letter-spacing: 3px;
+	line-height: 50px;
+	font-size: 35px;
+}
+.cards button{
+	width: 200px;
+	background-color: #50B4C6;
+}
+.reservation img{
+	width: 100%;
+	height: auto;
+}
+label{
+	font-family: 'cabin', sans-serif;
+	letter-spacing: 2px;
+	font-size: 10px!important;
+	text-transform: uppercase;
+	color: #50B4C6;
+}
+
+.input-field input[type=text],
+.input-field input[type=tel],
+.input-field input[type=email],
+textarea,
+label
+ {
+	color: #50B4C6;
+}
+
+
+
+/* label focus color */
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field textarea:focus + label {
+	color: #50B4C6 !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus,
+.input-field textarea:focus {
+	border-bottom: 1px solid #50B4C6 !important;
+	box-shadow: 0 1px 0 0 #50B4C6 !important;
+}
+/*sec-services*/
+.services img {
+	
+	width: 100vw;
+	height: auto;
+}
+.services{
+	
+}
+.service-content{
+	min-height: 50vh;
+	
+	
+}
+.services .sub-heading{
+	font-family: "butlerregular", serif;
+	letter-spacing: 3px;
+	font-size: 30px;
+}
+.services .content{
+	font-family: 'cabin', sans-serif;
+	line-height: auto;
+	
+}
+
+/*****ANIMATION***/
+.fade-in{
+	animation: fadein 4s forwards;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
+
+/****************FOOTER*******************/
+
+footer{
+	background-color: #E2E3DD!important;
+	color: black!important;
+}
+
+
+
+
+
+
+
+
