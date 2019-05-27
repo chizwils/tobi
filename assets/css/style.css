@@ -140,7 +140,7 @@ nav ul{
 	color: #020202;
 }
 .home header{
-	background-image: url(../images/banner.jpg);
+	background-image: url(../images/banner2.jpg);
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -163,6 +163,8 @@ nav ul{
 	width: 250px!important;
 	letter-spacing: 2px;
 	background-color: #FF5F59;
+	font-size: 15px;
+	font-weight: 600;
 }
 
 /**************MAIN*************************/
@@ -259,9 +261,9 @@ label{
 	color: #50B4C6;
 }
 
-.input-field input[type=text],
-.input-field input[type=tel],
-.input-field input[type=email],
+.t input[type=text],
+.t input[type=tel],
+.t input[type=email],
 textarea,
 label
  {
@@ -271,16 +273,16 @@ label
 
 
 /* label focus color */
-.input-field input[type=text]:focus + label,
-.input-field input[type=email]:focus + label,
-.input-field textarea:focus + label {
+.t input[type=text]:focus + label,
+.t input[type=email]:focus + label,
+.t textarea:focus + label {
 	color: #50B4C6 !important;
 }
 
 /* label underline focus color */
-.input-field input[type=text]:focus,
-.input-field input[type=email]:focus,
-.input-field textarea:focus {
+.t input[type=text]:focus,
+.t input[type=email]:focus,
+.t textarea:focus {
 	border-bottom: 1px solid #50B4C6 !important;
 	box-shadow: 0 1px 0 0 #50B4C6 !important;
 }
